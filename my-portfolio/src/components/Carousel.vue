@@ -11,7 +11,7 @@
           justify="center"
           color="#F5F5F5"
         >
-          Web
+          {{context[i]}}
         </v-overlay>
       </v-row>
       </v-row>
@@ -23,6 +23,7 @@ export default {
   data: () => ({
     model: 0,
     absolute: true,
+    context: ["Web", "Android", "Unity"],
     opacity: 1,
     overlay: false,
     items: [
@@ -30,13 +31,10 @@ export default {
         src: require("../assets/img/advist_main.png"),
       },
       {
-        src: require("../assets/img/2.png"),
+        src: require("../assets/img/mobile.png"),
       },
       {
-        src: require("../assets/img/3.png"),
-      },
-      {
-        src: require("../assets/img/4.png"),
+        src: require("../assets/img/unity.jpg"),
       },
     ],
     colors: ["primary", "secondary", "yellow darken-2", "red", "orange"],

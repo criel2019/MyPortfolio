@@ -1,11 +1,6 @@
 <template>
   <v-row class="display-2 pa-3 mt-3">
-    <v-col
-      v-for="n in 5"
-      :key="n"
-      class="d-flex justify-space-around mb-6"
-      cols="4"
-    >
+    <v-col v-for="n in 5" :key="n" class="d-flex justify-space-around mb-6">
       <v-img
         v-bind:src="require(`../assets/img/logo/${n}.png`)"
         :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"

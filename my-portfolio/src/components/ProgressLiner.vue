@@ -2,7 +2,7 @@
   <v-content>
     <div class="display-2 pa-5">기술 스택</div>
     <v-row class="px-8 mt-3"
-      >아래 값들은 자바스크립트를 100으로 한 상대적인 값임</v-row
+      >*아래 값들은 자바스크립트를 100%로 한 상대적인 값임</v-row
     >
     <v-row class="pa-6">
       <v-col>
